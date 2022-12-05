@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Enroll</title>
+        <style>
+            body{background-color: black;}
+            .main{width:50%; height:60%; background-color: aquamarine; 
+                border-radius: 50px; margin: auto; margin-top: 100px;} 
+            .form{padding-top:70px; margin: auto; padding-left:50px;}
+            .fieldset{border-radius:50px; width:500px;}
+            .button{width:90px; height:30px; margin-left: 30px; border:none; background-color: lawngreen;} 
+        </style>
+    </head>
+    <body>
+        <div class="main"> 
+        <form class="form">
+            <fieldset class="fieldset">
+                <legend><strong>Enroll Now</strong></legend>
+                Email:
+                <input type="email" placeholder="Enter your email address"/>
+                <br>
+                <br>
+                Course:
+                <select>
+                    <option>C++</option>
+                    <option>Java</option>
+                    <option>Python</option>
+                    <option>D.S.A.</option>
+                    <option>R+ Language</option>
+                    <option>Digital Marketing</option>
+                    <option>Excel</option>
+                    <option>Public Speaking</option>
+                    <option>Communication skills</option>
+                    <option>Html</option>
+                    <option>Css</option>
+                    <option>Database Management</option>
+                </select>
+                <br>
+                <br>
+                Course Fee:
+                <input readonly value="4000/-">
+                <br>
+                <br>
+                Payment Method:
+                <input type="radio" value="upi"  name="Payment"/>UPI
+                <input type="radio"  value="net" name="Payment"/>Net Banking
+                <input type="radio" value="card" name="Payment"/>Cards
+                <br>
+                <br>
+                <input type="button" value="Pay" class="button"/>
+            </fieldset>
+        </form>
+        </div>
+    </body>
+</html>
